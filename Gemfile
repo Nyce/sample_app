@@ -30,6 +30,7 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
+#for the development and test environments for databases
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails', '2.11.0'
@@ -41,6 +42,7 @@ end
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 
